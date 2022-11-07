@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    figma-->
+    <color name="gray_placeholder">#95979D</color>
+    <color name="green">#149E48</color>
+    <color name="blue_contract">#006EFF</color>
+    <color name="blue_gradient">#9ac5ff</color>
+    <color name="orange_intern">#FF7A00</color>
+    <color name="yellow_1">#FCFF54</color>
+    <color name="gray_nav">#CACACA</color>
+    <color name="gray_line">#EDEDED</color>
+    <color name="black_notif">#2D2D2D</color>
+    <color name="font_color">#828282</color>
+    <color name="background">#F3F3F3</color>
+</resources>

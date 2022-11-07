@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/custom_gradient_background"
+    tools:context=".fragment.Onboarding3Fragment">
+
+    <RelativeLayout
+        android:id="@+id/rlOnboarding1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="92dp">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvHere"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Free Job Posting on toptalentapp.com"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFor"
+                android:layout_below="@id/tvHere"
+                android:layout_centerHorizontal="true"
+                android:textSize="26dp"
+                android:textStyle="normal"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:text="For your first job posting"/>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btGetStarted"
+            android:layout_width="328dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="42dp"
+            app:cornerRadius="20dp"
+            android:backgroundTint="@color/blue_contract"
+            android:text="Get Started"/>
+        <ImageView
+            android:layout_width="304dp"
+            android:layout_height="422dp"
+            android:src="@drawable/onboarding3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

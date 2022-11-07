@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_medium">280dp</dimen>
+
+    <dimen name="font_size_small">12dp</dimen>
+    <dimen name="font_size_xmedium">14dp</dimen>
+    <dimen name="font_size_medium">16dp</dimen>
+
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+</resources>
